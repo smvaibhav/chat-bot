@@ -13,12 +13,12 @@ const App = () => {
             <Link to='/'>Client Home</Link>
           </li>
           <li>
-            <Link to='/agent'>Agent Dashboard</Link>
+            <Link to='/dashboard'>Agent Dashboard</Link>
           </li>
         </ul>
         <hr />
         <Route exact path='/' component={Client} />
-        <Route path='/agent' component={Agent} />
+        <Route path='/dashboard' component={Agent} />
       </React.Fragment>
     </Router>
   );

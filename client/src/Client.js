@@ -11,7 +11,7 @@ const limit = 30;
 
 class Client extends Component {
   componentDidMount() {
-    addResponseMessage('Welcome to our store!');
+    addResponseMessage('Welcome to Surmount Soft!');
     addResponseMessage('Are you looking for anything in particular?');
     
     let uid = localStorage.getItem("cc-uid");
@@ -146,7 +146,7 @@ class Client extends Component {
       <div className='App'>
         <Widget
           handleNewUserMessage={this.handleNewUserMessage}
-          title='My E-commerce Live Chat'
+          title='My Surmount Soft Live Chat'
           subtitle='Ready to help you'
         />
       </div>

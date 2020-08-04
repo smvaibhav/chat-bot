@@ -2,9 +2,9 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-const appID = '{appID}';
-const apiKey = '{apiKey}';
-const agentUID = '{agentUID}';
+const appID = '210244592bfce72';
+const apiKey = 'c5cc8c77f37821b8d68d90643a36ad7d8a43eb51';
+const agentUID = 'Agent';
 
 const url = 'https://api.cometchat.com/v1';
 
